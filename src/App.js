@@ -12,6 +12,7 @@ class App extends Component {
       <div className="App">
         <FirstStep />
         <AditionalInfo />
+        <LastStep />
         <Tab/>
       </div>
     );

@@ -9,7 +9,6 @@ class LastStep extends Component {
         this.state = {
             show: false
         }
-
     }
    render(){
     return (
