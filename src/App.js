@@ -1,18 +1,12 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Tab from "./tab";
-import FirstStep from "./First";
-import AditionalInfo from "./AditionalInfo";
-import LastStep from "./last";
-
+import Tab from "./Tab";
+import Wizar from "./Wizar";
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <FirstStep />
-        <AditionalInfo />
-        <LastStep />
+        <Wizar /> 
         <Tab/>
       </div>
     );
