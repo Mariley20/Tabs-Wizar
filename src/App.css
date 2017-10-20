@@ -26,3 +26,22 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.su-boton {
+  border-radius: 89px 89px 89px 89px;
+-moz-border-radius: 89px 89px 89px 89px;
+-webkit-border-radius: 89px 89px 89px 89px;
+border: 0px solid #000000;
+}
+.su-boton-black{
+  border-radius: 89px 89px 89px 89px;
+  -moz-border-radius: 89px 89px 89px 89px;
+  -webkit-border-radius: 89px 89px 89px 89px;
+  border: 0px solid #000000;
+  background-color: black;
+  color: white;
+}
+.su-small{
+  color:rgb(168, 164, 164);
+  font-size: 2em;
+}

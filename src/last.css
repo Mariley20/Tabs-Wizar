@@ -1,0 +1,7 @@
+
+.su-boton {
+    border-radius: 89px 89px 89px 89px;
+-moz-border-radius: 89px 89px 89px 89px;
+-webkit-border-radius: 89px 89px 89px 89px;
+border: 0px solid #000000;
+}
