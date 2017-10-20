@@ -24,15 +24,14 @@ class LastStep extends Component {
             <button className="btn btn-back ">Back</button>   
             <button onClick={() => this.setState({ show: true })}>Finish</button>
             <SweetAlert
-            type='success'
+            type='success'         
               show={this.state.show}
                          title="Good job!"
               text="You clicked the finish button!"
               
               onConfirm={() => this.setState({ show: false })}
             />
-        </div>
-        </div>
+        </div></div>
 </div>
     )
    }
