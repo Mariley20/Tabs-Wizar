@@ -1,0 +1,21 @@
+.so-inp{
+    background: #eee;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
+.btn{
+    margin-top: 30px;
+    width:100px;
+    color:white
+}
+.so-back{
+    background: #484541;
+}
+.so-next{
+    background: #429CB6;
+}
