@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import SweetAlert from 'sweetalert-react';
+import 'sweetalert/dist/sweetalert.css';
 
 
 class LastStep extends Component {
@@ -21,13 +22,15 @@ class LastStep extends Component {
         </div>
         <div className="col-xs-12 col-lg-12 col-md-12 col-sm-12">
             <button className="btn btn-back ">Back</button>   
-              <button onClick={() => this.setState({ show: true })}>Alert</button>
-      <SweetAlert
-        show={this.state.show}
-        title="Demo"
-        text="SweetAlert in React"
-        onConfirm={() => this.setState({ show: false })}
-      />
+            <button onClick={() => this.setState({ show: true })}>Finish</button>
+            <SweetAlert
+            type='success'
+              show={this.state.show}
+                         title="Good job!"
+              text="You clicked the finish button!"
+              
+              onConfirm={() => this.setState({ show: false })}
+            />
         </div>
         </div>
 </div>
