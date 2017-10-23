@@ -8,9 +8,9 @@ class Wizar extends React.Component {
             <div className="container text-center">
   <h2>Dynamic Tabs</h2>
   <ul className="nav nav-tabs">
-    <li className="active"><a data-toggle="tab" href="#home">Home</a></li>
-    <li><a data-toggle="tab" href="#menu1">Profile</a></li>
-    <li><a data-toggle="tab" href="#menu2">Messages</a></li>
+    <li className="active"><a data-toggle="tab" href="#home">Personal details</a></li>
+    <li><a data-toggle="tab" href="#menu1">Additional Info</a></li>
+    <li><a data-toggle="tab" href="#menu2">Last step</a></li>
   </ul>
 
   <div className="tab-content">

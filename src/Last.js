@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import SweetAlert from 'sweetalert-react';
 import 'sweetalert/dist/sweetalert.css';
 
-
-
 class LastStep extends Component {
 
     constructor(props) {
@@ -15,6 +13,7 @@ class LastStep extends Component {
     render() {
         return (
             <div className="container" >
+                <div className='col-md-offset-3 col-md-6'>
                 <div className="row">
                     <div className="col-xs-12 col-lg-12 col-md-12 col-sm-12">
                         <h1>Yuhuuu!</h1>
@@ -36,6 +35,7 @@ class LastStep extends Component {
                         />
 
                     </div>
+                </div>
                 </div>
             </div>
         )
