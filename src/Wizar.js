@@ -6,11 +6,18 @@ class Wizar extends React.Component {
     render(){
         return (
             <div className="container text-center">
-  <h2>Dynamic Tabs</h2>
   <ul className="nav nav-tabs">
-    <li className="active"><a data-toggle="tab" href="#home">Personal details</a></li>
-    <li><a data-toggle="tab" href="#menu1">Additional Info</a></li>
-    <li><a data-toggle="tab" href="#menu2">Last step</a></li>
+    <li className="active">
+        <i className="glyphicon glyphicon-user"></i>
+        <a data-toggle="tab" href="#home">Personal details</a></li>
+    <li>
+        <i class="fa fa-cog" aria-hidden="true"></i>
+        <a data-toggle="tab" href="#menu1">Additional Info</a>
+        </li>
+    <li>
+        <i class="fa fa-check" aria-hidden="true"></i>
+        <a data-toggle="tab" href="#menu2">Last step</a>
+    </li>
   </ul>
 
   <div className="tab-content">
