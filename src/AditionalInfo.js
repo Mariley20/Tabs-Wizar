@@ -41,7 +41,7 @@ class AditionalInfo extends Component {
                         <input className='form-control so-inp' type="number" placeholder='ex: 19.00'/>
                   </div>
               </form>
-              <div  className='col-md-6'>
+              <div  className='col-md-6 text-left'>
                 <button className='btn so-back'>Back</button>
               </div>
               <div  className='col-md-6 text-right'>
