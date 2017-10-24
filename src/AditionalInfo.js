@@ -2,6 +2,19 @@ import React, { Component } from 'react';
 import './AditionalInfo.css';
 
 class AditionalInfo extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      firstName : null,
+      lastName : null,
+      email: null,
+      website : null,
+      framework: null,
+      lenguage : null,
+      bootstrap : null,
+      price: null
+    }
+  }
   render() {
     return (
       <div className="container">
