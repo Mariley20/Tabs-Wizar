@@ -18,7 +18,7 @@ class FirstStep extends Component {
                         <span className="col-lg-12 col-md-12 col-sm-12 col-xs-12"><input type="text" className="form-control" placeholder="ex: Mike"/></span>
                     </div>
                     <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <label className="text-left col-lg-12 col-md-12 col-sm-12 col-xs-12">Last Name</label>
+                        <label className="text-left col-lg-12 col-md-12 col-sm-12 col-xs-12">Email</label>
                         <span className="col-lg-12 col-md-12 col-sm-12 col-xs-12"><input type="email" className="form-control"placeholder="Enter email"/></span>
                     </div>
                     <div className="col-lg-10 col-md-10 col-sm-10 col-xs-10 text-right">
