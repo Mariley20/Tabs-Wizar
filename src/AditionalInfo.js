@@ -5,7 +5,7 @@ class AditionalInfo extends Component {
   render() {
     return (
       <div className="container">
-          <div className='col-md-offset-3 col-md-6'>
+          <div className='col-md-offset-3 col-md-6'> <br/><br/>
               <h4>Please give us more details about your platform.</h4><br/>
               <form className="form-group">
                 <div className='col-md-12'>
@@ -41,10 +41,10 @@ class AditionalInfo extends Component {
                         <input className='form-control so-inp' type="number" placeholder='ex: 19.00'/>
                   </div>
               </form>
-              <div  className='col-md-6 text-left'>
+              <div  className='col-md-6 col-xs-6 text-left'>
                 <button className='btn so-back'>Back</button>
               </div>
-              <div  className='col-md-6 text-right'>
+              <div  className='col-md-6 col-xs-6 text-right'>
               <button className='btn so-next'>Next</button>
               </div>
           </div>
