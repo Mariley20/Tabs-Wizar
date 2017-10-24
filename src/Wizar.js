@@ -14,22 +14,20 @@ import {
 class Wizar extends React.Component {
     render(){
         return (
-            <BrowserRouter>
-<div className="container text-center">
-  <ul className="nav nav-tabs my-nav-Wizar">
-    <li className="active">
+<BrowserRouter>
+<div id="wizzard" className="container text-center">
+  <ul id="eyeslash" className="nav nav-tabs my-nav-Wizar col-md-12 col-xs-12">
+    <li id="eyelash" className="active col-md-4 col-xs-4">
         <NavLink  exact to="/first"><i className="glyphicon glyphicon-user"></i><br />
         <span>Additional Info</span></NavLink>
     </li>
-    <li>
+    <li id="eyelash" className="col-md-4 col-xs-4">  
         <NavLink  to="/aditionalInfo"><i className="fa fa-cog" aria-hidden="true"></i><br />
         <span>Additional Info</span></NavLink>
     </li>
-    <li>
+    <li id="eyelash" className="col-md-4 col-xs-4">
         <NavLink  to="/last"><i className="fa fa-cog" aria-hidden="true"></i><br />
         <span>Additional Info</span></NavLink>
-        {/* <a data-toggle="tab" href="#final"><i class="fa fa-check" aria-hidden="true"></i><br />
-        <span>Additional Info</span></a> */}
     </li>
   </ul>
 
