@@ -1,6 +1,15 @@
 import React, {Component} from 'react';
 
 class FirstStep extends Component {
+    constructor(props){
+        super(props)
+        this.state = {
+            firstName : null,
+            lastName : null,
+            email: null,
+            valid: false
+        }
+    }
     render(){
         return(
             <div className="container">
@@ -21,7 +30,7 @@ class FirstStep extends Component {
                         <span className="col-lg-12 col-md-12 col-sm-12 col-xs-12"><input type="email" className="form-control"placeholder="Enter email"/></span>
                     </div>
                     <div className="col-lg-10 col-md-10 col-sm-10 col-xs-10 text-right">
-                        <button type="submit" className="btn btn-primary ">Next</button>
+                        <button className="btn btn-primary" disabled={this.state.valid}>Next</button>
                     </div>
                 </div>          
             </form>

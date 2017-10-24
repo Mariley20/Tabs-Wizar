@@ -5,14 +5,12 @@ class AditionalInfo extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      firstName : null,
-      lastName : null,
-      email: null,
       website : null,
       framework: null,
       lenguage : null,
       bootstrap : null,
-      price: null
+      price: null,
+      valid: false
     }
   }
   render() {
@@ -58,7 +56,7 @@ class AditionalInfo extends Component {
                 <button className='btn so-back'>Back</button>
               </div>
               <div  className='col-md-6 text-right'>
-              <button className='btn so-next'>Next</button>
+              <button className='btn so-next' disabled={this.state.valid} >Next</button>
               </div>
           </div>
       </div>
