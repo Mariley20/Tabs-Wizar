@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {NavLink } from 'react-router-dom';
 import './AditionalInfo.css';
 
 class AditionalInfo extends Component {
@@ -53,10 +54,14 @@ class AditionalInfo extends Component {
                   </div>
               </form>
               <div  className='col-md-6 col-xs-6 text-left'>
-                <button className='btn so-back'>Back</button>
+                <NavLink to={"/first"}className="btn so-back">Ingresar</NavLink>
               </div>
               <div  className='col-md-6 col-xs-6 text-right'>
-              <button className='btn so-next'disabled={this.state.valid} >Next</button>
+                {
+                  this.state.valid ?<NavLink to={"/last"}className="btn so-next">back</NavLink>
+                  :
+                  <button type="button" className="btn so-next" disabled="disabled">Next</button>
+                }
               </div>
           </div>
       </div>

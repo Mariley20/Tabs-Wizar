@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import SweetAlert from 'sweetalert-react';
 import 'sweetalert/dist/sweetalert.css';
-
+import {NavLink } from 'react-router-dom';
 class LastStep extends Component {
 
     constructor(props) {
@@ -21,7 +21,7 @@ class LastStep extends Component {
                     </div>
 
                     <div className="col-xs-6 col-lg-6 col-md-6 col-sm- text-center">
-                        <button className="btn btn-back su-boton-black so-back">Back</button>
+                        <NavLink to={"/aditionalInfo"}className="btn btn-back su-boton-black so-back">Back</NavLink>
                     </div>
                     <div className="col-xs-6 col-lg-6 col-md-6 col-sm-6 text-center">
                         <button onClick={() => this.setState({ show: true })} className="btn btn-primary su-boton">Finish</button>

@@ -32,15 +32,6 @@ class Wizar extends React.Component {
   </ul>
 
   <div className="tab-content">
-    {/* <div id="info" className="tab-pane fade in active k-padd">
-        <FirstStep />
-    </div>
-    <div id="perfil" className="tab-pane fade k-padd">
-        <AditionalInfo />
-    </div>
-    <div id="final" className="tab-pane fade k-padd">
-        <LastStep />
-    </div> */}
     <Switch> 
             <Route exact path= "/" render={()=><Redirect to="/first" /> } />
             <Route path = "/first" component = {FirstStep}/>
